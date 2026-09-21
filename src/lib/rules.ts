@@ -1,3 +1,4 @@
+import type {Field} from "./invoiceParser"
 const currencies: Record<string, string> = {
     AED : "UAE Dirham",
     MYR : "Malaysian Ringgit",
