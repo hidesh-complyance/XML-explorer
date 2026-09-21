@@ -2,7 +2,7 @@
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
 <cbc:CustomizationID>urn:peppol:pint:billing-1@om-1</cbc:CustomizationID>
 <cbc:ProfileID>urn:peppol:bis:billing</cbc:ProfileID>
-<cbc:ID>OM-TEST-001</cbc:ID>
+<cbc:ID>Test Invoice</cbc:ID>
 <cbc:UUID>119ff918-1944-553f-a138-99611f4873ea</cbc:UUID>
 <cbc:IssueDate>2026-09-13</cbc:IssueDate>
 <cbc:IssueTime>09:00:00</cbc:IssueTime>

@@ -8,16 +8,17 @@
   <body>
     <h1>Invoice XML Explorer</h1>
     <form id="invoice-form">
-      <p><label for="invoice-input">Paste UBL invoice XML (maximum 1 MB)</label></p>
+      <p><label for="invoice-input">Paste UBL invoice XML (1MB limit)</label></p>
       <textarea id="invoice-input" rows="12" cols="40" required spellcheck="false"></textarea>
       <p><button type="submit">View invoice</button></p>
     </form>
     <p id="error" role="alert" hidden></p>
     <main id="viewer" hidden>
-      <p>Select an invoice value to find its XML. Select an XML element to find its invoice field.</p>
+      <p>Select an invoice value to find its XML. Selecte an XML element to find its field</p>
       <section aria-labelledby="summary-heading">
         <h2 id="summary-heading">Invoice</h2>
         <div id="invoice-summary"></div>
+        //very basic UI. values are not calculated or modified.
         <p>Values are shown as supplied. Totals are not recalculated or validated.</p>
       </section>
       <section aria-labelledby="source-heading">
@@ -28,11 +29,11 @@
       </section>
       <section aria-labelledby="xml-heading">
         <h2 id="xml-heading">XML</h2>
-        <p>Formatted view. Line numbers do not match the original input.</p>
+        <p>Formatted view.</p>
         <pre id="xml-source"></pre>
       </section>
     </main>
-    <footer><p>XML stays in your browser. No server uploads or schema validation.</p></footer>
+    <footer><p>XML does not go anywhere</p></footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
